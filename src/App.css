@@ -571,7 +571,7 @@ label {
   right: 10px;
   top: 10px;
   width: 80px;
-  background: white;
+  background: #ebebebc3;
   border: black 1px solid;
   border-radius: 21px;
   transition: all 0.3s ease 0s;
@@ -595,7 +595,8 @@ input:checked + label:after {
 }
 
 /* Sun and Moon Icon Styles */
-label img {
+label .sun-icon,
+label .moon-icon {
   height: 25px;
   margin-bottom: 5px;
   position: absolute;
@@ -605,16 +606,23 @@ label img {
   transition: all 0.3s ease 0s;
 }
 
-.hidden {
-  display: none;
+label .sun-icon {
+  left: 8px;
+}
+
+label .moon-icon {
+  right: 7px;
 }
 
 /* Dark Mode Styles */
-body.dark-mode {
-  filter: invert(1) hue-rotate(180deg);
-  background-color: #242424;
+.dark-mode {
+  /* filter: invert(1) hue-rotate(180deg); */
+  background-color: #303030;
 }
 
-body.dark-mode img {
-  filter: invert(1) hue-rotate(180deg); /* Re-invert images to display them correctly */
+.dark-mode,
+.dark-mode .menu-links {
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
 }
