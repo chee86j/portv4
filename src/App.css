@@ -382,6 +382,11 @@ article .icon {
   transform: translateZ(30px);
 }
 
+.project-text {
+  transform: translateZ(30px);
+  margin-bottom: 0.5rem;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
