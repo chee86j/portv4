@@ -32,6 +32,12 @@ function Projects() {
             <h2 className="experience-sub-title project-title">
               Acme Web Store
             </h2>
+            <p className="project-text">
+              White-Label E-commerce Store: PERN Stack App with seamless
+              shopping, secure payments via Stripe, personalized
+              recommendations, and developer-friendly scalability, defining the
+              future of online retail.{" "}
+            </p>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -62,6 +68,12 @@ function Projects() {
             <h2 className="experience-sub-title project-title">
               Reel Relations
             </h2>
+            <p className="project-text">
+              PERN Stack App exploring to Discover the degrees of separation
+              between two actors and identifies common movies in their careers
+              employing a BFS algorithm for efficient pathfinding through a
+              graph of Actors and Movies.
+            </p>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -92,6 +104,12 @@ function Projects() {
             <h2 className="experience-sub-title project-title">
               Tetris Beats TS
             </h2>
+            <p className="project-text">
+              A modern Tetris clone, Tetris Beat TS harmonizes classic gameplay
+              with contemporary music and visuals. Experience customizable
+              themes, dynamic audio-visual synergy, and draggable controls in
+              this immersive app.
+            </p>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
