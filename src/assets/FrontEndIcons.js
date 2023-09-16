@@ -2,7 +2,7 @@ import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as TbIcons from "react-icons/tb";
 
-const IconData = [
+const FrontEndIconData = [
   {
     icon: <FaIcons.FaReact />,
     name: "React",
@@ -13,64 +13,44 @@ const IconData = [
   },
   {
     icon: <FaIcons.FaJsSquare />,
-    name: "JavaScript",
-  },
-  {
-    icon: <FaIcons.FaNodeJs />,
-    name: "Node.js",
-  },
-  {
-    icon: <SiIcons.SiTypescript />,
-    name: "TypeScript",
-  },
-  {
-    icon: <FaIcons.FaCss3Alt />,
-    name: "CSS3",
+    name: "JavaScript React/Redux",
+    level: "Proficient",
   },
   {
     icon: <FaIcons.FaHtml5 />,
     name: "HTML5",
+    level: "Intermediate",
+  },
+  {
+    icon: <FaIcons.FaCss3Alt />,
+    name: "CSS3",
+    level: "Intermediate",
   },
   {
     icon: <FaIcons.FaBootstrap />,
     name: "Bootstrap",
+    level: "Proficient",
   },
   {
     icon: <SiIcons.SiTailwindcss />,
     name: "TailwindCSS",
+    level: "Intermediate",
   },
   {
     icon: <FaIcons.FaGitAlt />,
     name: "Git",
+    level: "Proficient",
   },
   {
     icon: <FaIcons.FaGithub />,
     name: "Github",
+    level: "Proficient",
   },
   {
     icon: <TbIcons.TbBrandVscode />,
     name: "VSCode",
-  },
-  {
-    icon: <FaIcons.FaServer />,
-    name: "Express.js",
-  },
-  {
-    icon: <SiIcons.SiPostgresql />,
-    name: "PostgreSQL",
-  },
-  {
-    icon: <SiIcons.SiSequelize />,
-    name: "Sequelize",
-  },
-  {
-    icon: <FaIcons.FaDatabase />,
-    name: "Database Management",
-  },
-  {
-    icon: <SiIcons.SiCheckmarx />,
-    name: "Checkmarx",
+    level: "Proficient",
   },
 ];
 
-export default IconData;
+export default FrontEndIconData;

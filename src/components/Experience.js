@@ -1,5 +1,7 @@
 import React from "react";
 import CheckMarkIcon from "../assets/checkmark.png";
+import FrontEndIconData from "../assets/FrontEndIcons";
+import BackEndIconData from "../assets/BackEndIcons";
 import arrowDownIcon from "../assets/arrow.png";
 
 function Experience() {
