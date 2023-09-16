@@ -22,7 +22,7 @@ function Footer() {
         </div>
       </nav>
       <p>
-        Version 1 - Copyright &#169; 2023 Jeffrey Chee. All Rights Reserved.
+        Version 4.0 - Copyright &#169; 2023 Jeffrey Chee. All Rights Reserved.
       </p>
     </footer>
   );
