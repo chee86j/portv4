@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore all files and folders in the Downloads directory
+/Downloads/*
+
+# Exclude specific files or folders inside the Downloads directory
+!/Downloads/portv4/
