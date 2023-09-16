@@ -6,10 +6,12 @@ const FrontEndIconData = [
   {
     icon: <FaIcons.FaReact />,
     name: "React",
+    level: "Proficient",
   },
   {
     icon: <SiIcons.SiRedux />,
-    name: "React",
+    name: "Redux",
+    level: "Proficient",
   },
   {
     icon: <FaIcons.FaJsSquare />,

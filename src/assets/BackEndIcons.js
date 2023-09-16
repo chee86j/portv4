@@ -2,7 +2,7 @@ import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as TbIcons from "react-icons/tb";
 
-const BackendEndIconData = [
+const BackEndIconData = [
   {
     icon: <FaIcons.FaNodeJs />,
     name: "Node.js",
@@ -45,4 +45,4 @@ const BackendEndIconData = [
   },
 ];
 
-export default BackendEndIconData;
+export default BackEndIconData;

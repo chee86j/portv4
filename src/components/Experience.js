@@ -1,5 +1,4 @@
 import React from "react";
-import CheckMarkIcon from "../assets/checkmark.png";
 import FrontEndIconData from "../assets/FrontEndIcons";
 import BackEndIconData from "../assets/BackEndIcons";
 import arrowDownIcon from "../assets/arrow.png";
@@ -15,125 +14,30 @@ function Experience() {
           <div className="details-container">
             <h2 className="experience-sub-title">Frontend Development</h2>
             <div className="article-container">
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>JavaScript (React/Redux)</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>HTML5</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Bootstrap</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>TailwindCSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Git</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>GitHub</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>VSCode</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
+              {FrontEndIconData.map((item, index) => {
+                return (
+                  <div key={index} className="icon">
+                    <i>{item.icon}</i>
+                    <span>{item.name}</span>
+                    <lvl>{item.level}</lvl>
+                  </div>
+                );
+              })}
             </div>
           </div>
-
           {/* Backend Development Details */}
           <div className="details-container">
             <h2 className="experience-sub-title">Backend Development</h2>
             <div className="article-container">
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>JavaScript (Node.js)</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Express</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>Sequelize</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>RESTful API</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>OOP</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
-              <article>
-                <img src={CheckMarkIcon} alt="checkmark" className="icon" />
-                <div>
-                  <h3>DB Management</h3>
-                  <p>Proficient</p>
-                </div>
-              </article>
+              {BackEndIconData.map((item, index) => {
+                return (
+                  <div key={index} className="icon">
+                    <i>{item.icon}</i>
+                    <span>{item.name}</span>
+                    <lvl>{item.level}</lvl>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
