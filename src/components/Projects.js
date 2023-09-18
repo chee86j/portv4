@@ -57,6 +57,7 @@ function Projects() {
               </button>
             </div>
           </div>
+          {/* Project 2 Details */}
           <div
             className="details-container color-container"
             ref={project2Ref}
@@ -93,6 +94,7 @@ function Projects() {
               </button>
             </div>
           </div>
+          {/* Project 3 Details */}
           <div
             className="details-container color-container"
             ref={project3Ref}

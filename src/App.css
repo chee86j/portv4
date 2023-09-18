@@ -288,6 +288,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin: 1rem;
 }
 
 .btn {
@@ -412,7 +413,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
@@ -615,6 +616,49 @@ footer p {
   }
 }
 
+@media screen and (orientation: landscape) and (max-width: 600px) {
+  #profile,
+  #about,
+  #experience,
+  #projects,
+  #contact,
+  footer {
+    transform: scale(100%);
+    /* height: max-content; */
+    /* width: max-content; */
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 1200px) {
+  #profile,
+  #about,
+  #experience,
+  #projects,
+  #contact,
+  footer {
+    transform: scale(90%);
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 1400px) {
+  #profile,
+  #about,
+  #experience,
+  #projects,
+  #contact,
+  footer {
+    margin-top: 12rem;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 1400px) {
+  #profile,
+  #about,
+  #experience,
+  #projects,
+  #contact,
+  footer {
+    margin-top: 8rem;
+  }
+}
+
 /* Dark Mode Toggler */
 .dark-mode-toggler {
   position: absolute;
@@ -694,13 +738,12 @@ label .moon-icon {
 
 /* Dark Mode Styles */
 .dark-mode {
-  /* filter: invert(1) hue-rotate(180deg); */
   background-color: #303030;
 }
 
 .dark-mode,
 .dark-mode .menu-links {
-  background-color: #303030;
+  background-color: #252525;
   color: rgb(255, 255, 255);
   opacity: 0.9;
 }
@@ -721,27 +764,21 @@ label .moon-icon {
 .dark-mode .section__text__p2 {
   color: rgb(187, 187, 187);
 }
-
-.dark-mode .arrow,
-.dark-mode .experience-sub-title,
-.dark-mode .hamburger-icon,
-.dark-mode .icon {
+.dark-mode .experience-sub-title {
   filter: invert(1);
 }
 
 .dark-mode .btn-color-1,
 .dark-mode .btn-color-2,
-.dark-mode .section-container {
-  background-color: #4b4b4b;
-  border-radius: 2rem;
-  padding: 0.5rem;
-}
-
+.dark-mode .section-container,
+.dark-mode .text-container,
 .dark-mode .color-container,
 .dark-mode .details-container {
   background-color: rgb(60, 60, 60);
   color: rgba(230, 230, 230, 0.65);
-  border-color: rgb(85, 85, 85);
+  border-color: rgb(185, 185, 185);
+  border-radius: 15px;
+  padding: 0.5rem;
 }
 
 .dark-mode .about-containers,
@@ -757,7 +794,12 @@ label .moon-icon {
   color: #00ffff;
 }
 
-.dark-mode .icon span {
+.dark-mode .contact-icon,
+.dark-mode .item-icon {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.dark-mode .dark-mode .icon span {
   /* background: linear-gradient(to right, #00ffff 0%, #d40071 100%); */
   background: linear-gradient(to right, #ff2600 0%, #00d4d0 100%);
   background-clip: text;

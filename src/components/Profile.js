@@ -21,10 +21,14 @@ function Profile() {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open("./assets/Resume-Sept-2023.pdf")}
+            onClick={() => {
+              window.location.href =
+                "https://drive.google.com/uc?export=download&id=1h53JALILfMhsKA9tXKrWKBDT_LbxdToX";
+            }}
           >
             Download CV
           </button>
+
           <button
             className="btn btn-color-1"
             onClick={() => (window.location.href = "./#contact")}
