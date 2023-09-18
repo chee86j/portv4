@@ -4,14 +4,14 @@ import * as TbIcons from "react-icons/tb";
 
 const BackEndIconData = [
   {
-    icon: <FaIcons.FaNodeJs />,
-    name: "Node.js",
-    level: "Proficient",
-  },
-  {
     icon: <SiIcons.SiTypescript />,
     name: "TypeScript",
     level: "Experienced",
+  },
+  {
+    icon: <FaIcons.FaNodeJs />,
+    name: "Node.js",
+    level: "Proficient",
   },
   {
     icon: <SiIcons.SiPostgresql />,

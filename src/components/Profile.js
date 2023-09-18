@@ -40,7 +40,7 @@ function Profile() {
           <img
             src={LinkedInIcon}
             alt="My LinkedIn"
-            className="icon"
+            className="LinkedInIcon"
             onClick={() =>
               (window.location.href = "https://www.linkedin.com/in/jeffchee86/")
             }
@@ -48,7 +48,7 @@ function Profile() {
           <img
             src={GitHubIcon}
             alt="My Github"
-            className="icon"
+            className="GithubIcon"
             onClick={() =>
               (window.location.href = "https://github.com/chee86j")
             }

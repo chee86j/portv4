@@ -14,11 +14,6 @@ const FrontEndIconData = [
     level: "Proficient",
   },
   {
-    icon: <FaIcons.FaJsSquare />,
-    name: "JavaScript React/Redux",
-    level: "Proficient",
-  },
-  {
     icon: <FaIcons.FaHtml5 />,
     name: "HTML5",
     level: "Intermediate",

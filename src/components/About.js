@@ -19,7 +19,7 @@ function About() {
               <img
                 src={ExperienceIcon}
                 alt="Experience icon"
-                className="icon"
+                className="ExpIcon"
               />
               <h3>Experience</h3>
               <p>
@@ -28,7 +28,11 @@ function About() {
               </p>
             </div>
             <div className="details-container">
-              <img src={EducationIcon} alt="Education icon" className="icon" />
+              <img
+                src={EducationIcon}
+                alt="Education icon"
+                className="EducationIcon"
+              />
               <h3>Education</h3>
               <p>
                 Bernard Baruch College - B.Sc. Public Affairs <br /> 2010
