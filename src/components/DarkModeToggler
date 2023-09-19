@@ -1,0 +1,24 @@
+import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import sunIcon from "../assets/sun.png";
+import moonIcon from "../assets/moon.png";
+
+function DarkModeToggler({ isDarkMode, toggleDarkMode }) {
+  return (
+    <div className="dark-mode-toggler" data-aos="fade-up">
+      <input
+        type="checkbox"
+        id="darkmode-toggle"
+        checked={isDarkMode}
+        onChange={toggleDarkMode}
+      />
+      <label htmlFor="darkmode-toggle">
+        <img src={sunIcon} alt="Sun Icon" className="sun-icon" />
+        <img src={moonIcon} alt="Moon Icon" className="moon-icon" />
+      </label>
+    </div>
+  );
+}
+
+export default DarkModeToggler;
