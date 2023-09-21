@@ -1,6 +1,6 @@
 import React from "react";
-import FrontEndIconData from "../assets/FrontEndIcons";
-import BackEndIconData from "../assets/BackEndIcons";
+import FrontEndIconData from "../assets/IconData/FrontEndIcons";
+import BackEndIconData from "../assets/IconData/BackEndIcons";
 import arrowDownIcon from "../assets/arrow.png";
 
 function Experience() {

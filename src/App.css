@@ -545,6 +545,10 @@ footer p {
   .nav-links li a {
     font-size: 1rem;
   }
+  .details-container[data-tilt] {
+    /* Prevents Tilt.js from applying transform */
+    transform: none !important;
+  }
   .experience-sub-title {
     font-size: 1.25rem;
   }
