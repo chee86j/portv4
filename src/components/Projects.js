@@ -89,9 +89,7 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open(
-                    "https://reel-relations-pecz-5e0s.onrender.com/#/"
-                  )
+                  window.open("https://reel-relations-pecz.onrender.com/#/")
                 }
               >
                 Demo
