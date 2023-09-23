@@ -51,7 +51,9 @@ function Projects() {
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => window.open("https://github.com/")}
+                onClick={() =>
+                  window.open("https://acme-web-store.onrender.com/#/")
+                }
               >
                 Demo
               </button>
