@@ -52,9 +52,11 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open("https://acme-web-store.onrender.com/#/")
+                  window.open(
+                    "https://acme-web-store.up.railway.app/"
+                  )
                 }
-              >
+              >             
                 Demo
               </button>
             </div>
@@ -91,7 +93,7 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open("https://reel-relations-pecz.onrender.com/#/")
+                  window.open("https://reelrelations.up.railway.app/")
                 }
               >
                 Demo
