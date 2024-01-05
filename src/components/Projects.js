@@ -42,9 +42,7 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open(
-                    "https://github.com/StonefortSolutions/acme-web-store"
-                  )
+                  window.open("https://github.com/chee86j/acme-web-store")
                 }
               >
                 Github
@@ -52,11 +50,9 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open(
-                    "https://acme-web-store.up.railway.app/"
-                  )
+                  window.open("https://acme-web-store.up.railway.app/")
                 }
-              >             
+              >
                 Demo
               </button>
             </div>
@@ -84,7 +80,7 @@ function Projects() {
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
                   window.open(
-                    "https://github.com/ReelRelationsGroup/Reel_Relations2"
+                    "https://github.com/chee86j/Reel_Relations2-JeffRender"
                   )
                 }
               >
