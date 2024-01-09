@@ -20,7 +20,7 @@ function Profile() {
         <p className="section__text__p2">FullStack Developer</p>
         <div className="btn-container">
           <button
-            className="btn btn-color-2"
+            className="download-cv-btn"
             onClick={() => {
               window.location.href =
                 "https://drive.google.com/file/d/1HnTYDj4t8gHz-wKBYbatXb4Tm1IGLNFT/view?usp=sharing";
