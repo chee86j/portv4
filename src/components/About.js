@@ -54,12 +54,9 @@ function About() {
           </div>
         </div>
       </div>
-      <img
-        src={arrowDownIcon}
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "./#experience")}
-      />
+      <a href="#experience">
+        <img src={arrowDownIcon} alt="Down Arrow" className="icon arrow" />
+      </a>
     </section>
   );
 }

@@ -14,40 +14,33 @@ function Experience() {
           <div className="details-container">
             <h2 className="experience-sub-title">Frontend Development</h2>
             <div className="article-container">
-              {FrontEndIconData.map((item, index) => {
-                return (
-                  <div key={index} className="icon">
-                    <i>{item.icon}</i>
-                    <span>{item.name}</span>
-                    <lvl>{item.level}</lvl>
-                  </div>
-                );
-              })}
+              {FrontEndIconData.map((item, index) => (
+                <div key={index} className="icon">
+                  <i>{item.icon}</i>
+                  <span>{item.name}</span>
+                  <span>{item.level}</span>
+                </div>
+              ))}
             </div>
           </div>
           {/* Backend Development Details */}
           <div className="details-container">
             <h2 className="experience-sub-title">Backend Development</h2>
             <div className="article-container">
-              {BackEndIconData.map((item, index) => {
-                return (
-                  <div key={index} className="icon">
-                    <i>{item.icon}</i>
-                    <span>{item.name}</span>
-                    <lvl>{item.level}</lvl>
-                  </div>
-                );
-              })}
+              {BackEndIconData.map((item, index) => (
+                <div key={index} className="icon">
+                  <i>{item.icon}</i>
+                  <span>{item.name}</span>
+                  <span>{item.level}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
-      <img
-        src={arrowDownIcon}
-        alt="Down Arrow"
-        className="icon arrow"
-        onClick={() => (window.location.href = "./#projects")}
-      />
+      <a href="#projects">
+        <img src={arrowDownIcon} alt="Down Arrow" className="icon arrow" />
+      </a>
     </section>
   );
 }

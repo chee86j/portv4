@@ -498,7 +498,9 @@ footer p {
     display: block;
   }
   .arrow {
-    display: none;
+    position: absolute;
+    right: 3vw;
+    bottom: 0vh;
   }
   section,
   .section-container {
