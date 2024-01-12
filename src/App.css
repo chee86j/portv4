@@ -780,6 +780,11 @@ label .moon-icon {
   opacity: 0.9;
 }
 
+.dark-mode .arrow {
+  filter: invert(1);
+  transform: scale(1.1);
+}
+
 .dark-mode .about-me-text,
 .dark-mode .btn,
 .dark-mode .project-text,

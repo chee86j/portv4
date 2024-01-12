@@ -4,10 +4,15 @@ import "aos/dist/aos.css";
 import sunIcon from "../assets/sun.png";
 import moonIcon from "../assets/moon.png";
 
-function DarkModeToggler({ isDarkMode, toggleDarkMode }) {
+function DarkModeToggler({ isDarkMode, setIsDarkMode }) {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle("dark-mode", !isDarkMode);
+  };
 
   return (
     <div className="dark-mode-toggler" data-aos="fade-up">
