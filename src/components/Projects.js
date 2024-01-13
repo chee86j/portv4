@@ -149,7 +149,7 @@ function Projects() {
             <p className="project-text">
               Contracted Job Lead Generation for Seamless Gutter Contractor with
               Feature Rich Admin Interface for Managing Leads, Quotes, User
-              Interactions & PnL Statements streamlining Business Ops with
+              Interactions & P&L Statements streamlining Business Ops with
               Integrated DB Management & Real-Time Updates.
             </p>
             <div className="btn-container">

@@ -396,6 +396,11 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  filter: grayscale(0%);
+
+  &:hover {
+    filter: grayscale(15%);
+  }
 }
 
 .arrow {

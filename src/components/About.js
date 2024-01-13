@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
+import useCardTilt from "../hooks/useCardTilt";
 import EducationIcon from "../assets/education.png";
 import arrowDownIcon from "../assets/arrow.png";
 import aboutPic from "../assets/about-pic.jpg";
 import ExperienceIcon from "../assets/experience.png";
 
 function About() {
+  const details1Ref = useRef(null);
+  const details2Ref = useRef(null);
+
+  useCardTilt(details1Ref);
+  useCardTilt(details2Ref);
+
   return (
     <section id="about">
       <p className="section__text__p1">Get To Know More</p>
@@ -15,7 +22,7 @@ function About() {
         </div>
         <div className="about-details-container">
           <div className="about-containers">
-            <div className="details-container">
+            <div className="details-container" ref={details1Ref} data-tilt>
               <img
                 src={ExperienceIcon}
                 alt="Experience icon"
@@ -27,7 +34,7 @@ function About() {
                 <br /> 07/2023
               </p>
             </div>
-            <div className="details-container">
+            <div className="details-container" ref={details2Ref} data-tilt>
               <img
                 src={EducationIcon}
                 alt="Education icon"
