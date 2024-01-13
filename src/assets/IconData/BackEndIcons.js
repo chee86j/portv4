@@ -9,6 +9,11 @@ const BackEndIconData = [
     level: "Experienced",
   },
   {
+    icon: <SiIcons.SiPython />,
+    name: "Python",
+    level: "Experienced",
+  },
+  {
     icon: <FaIcons.FaNodeJs />,
     name: "Node.js",
     level: "Proficient",
