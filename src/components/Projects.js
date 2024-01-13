@@ -3,16 +3,19 @@ import useCardTilt from "../hooks/useCardTilt";
 import Project1 from "../assets/project-1.png";
 import Project2 from "../assets/project-2.png";
 import Project3 from "../assets/project-3.png";
+import Project4 from "../assets/project-4v2.png";
 import arrowDownIcon from "../assets/arrow.png";
 
 function Projects() {
   const project1Ref = useRef(null);
   const project2Ref = useRef(null);
   const project3Ref = useRef(null);
+  const project4Ref = useRef(null);
 
   useCardTilt(project1Ref);
   useCardTilt(project2Ref);
   useCardTilt(project3Ref);
+  useCardTilt(project4Ref);
 
   return (
     <section id="projects">
@@ -126,6 +129,43 @@ function Projects() {
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() => window.open("https://ts-tetris.onrender.com")}
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+          {/* Project 4 Details */}
+          <div
+            className="details-container color-container"
+            ref={project4Ref}
+            data-tilt
+          >
+            <div className="article-container">
+              <img src={Project4} alt="Project 4" className="project-img" />
+            </div>
+            <h2 className="experience-sub-title project-title">
+              Manny's Seamless Gutters
+            </h2>
+            <p className="project-text">
+              Contracted Job Lead Generation for Seamless Gutter Contractor with
+              Feature Rich Admin Interface for Managing Leads, Quotes, User
+              Interactions & PnL Statements streamlining Business Ops with
+              Integrated DB Management & Real-Time Updates.
+            </p>
+            <div className="btn-container">
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() =>
+                  window.open("https://github.com/chee86j/MannysGuttersPERN")
+                }
+              >
+                Github
+              </button>
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() =>
+                  window.open("https://mannysseamlessgutters.up.railway.app/")
+                }
               >
                 Demo
               </button>
