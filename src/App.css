@@ -116,7 +116,7 @@ nav {
 
 .menu-links.open {
   max-height: 300px;
-}
+  z-index: 1001
 
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
@@ -563,7 +563,6 @@ footer p {
   }
   #hamburger-nav {
     display: flex;
-    z-index: 1000;
   }
   #experience,
   .experience-details-container {
