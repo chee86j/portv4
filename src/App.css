@@ -117,6 +117,7 @@ nav {
 .menu-links.open {
   max-height: 300px;
   z-index: 1001
+}
 
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
