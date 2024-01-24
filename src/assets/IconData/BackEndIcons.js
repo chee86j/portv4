@@ -24,6 +24,11 @@ const BackEndIconData = [
     level: "Proficient",
   },
   {
+    icon: <SiIcons.SiPrisma />,
+    name: "Prisma",
+    level: "Experienced",
+  },
+  {
     icon: <FaIcons.FaServer />,
     name: "Express.js",
     level: "Intermediate",

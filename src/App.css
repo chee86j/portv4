@@ -116,7 +116,7 @@ nav {
 
 .menu-links.open {
   max-height: 300px;
-  z-index: 1001
+  z-index: 1001;
 }
 
 .hamburger-icon.open span:first-child {
@@ -683,7 +683,7 @@ footer p {
   #projects,
   #contact,
   footer {
-    margin-top: 12rem;
+    margin-top: 25rem;
   }
 }
 @media screen and (orientation: landscape) and (min-width: 1400px) {
@@ -694,6 +694,9 @@ footer p {
   #contact,
   footer {
     margin-top: 8rem;
+  }
+  .experience-details-container {
+    overflow: auto;
   }
 }
 
