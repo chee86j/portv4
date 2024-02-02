@@ -1,12 +1,13 @@
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as TbIcons from "react-icons/tb";
+import PytestIcon from "./pytest.svg"
 
 const BackEndIconData = [
   {
     icon: <SiIcons.SiTypescript />,
     name: "TypeScript",
-    level: "Experienced",
+    level: "Intermediate",
   },
   {
     icon: <SiIcons.SiPython />,
@@ -22,6 +23,11 @@ const BackEndIconData = [
     icon: <SiIcons.SiPostgresql />,
     name: "PostgreSQL",
     level: "Proficient",
+  },
+  {
+    icon: <SiIcons.SiSqlite />,
+    name: "SQLite",
+    level: "Experienced",
   },
   {
     icon: <SiIcons.SiPrisma />,
@@ -53,6 +59,21 @@ const BackEndIconData = [
     name: "Database Management",
     level: "Proficient",
   },
+  {
+    icon: <SiIcons.SiMocha/>,
+    name: "Mocha",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiJasmine/>,
+    name: "Jasmine",
+    level: "Experienced",
+  },
+  {
+    icon: <img src={PytestIcon} alt="Pytest" className="iconStyle"/>,
+    name: "Pytest",
+    level: "Experienced",
+  }
 ];
 
 export default BackEndIconData;

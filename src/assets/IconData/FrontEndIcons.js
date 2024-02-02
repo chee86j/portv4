@@ -5,7 +5,7 @@ import * as TbIcons from "react-icons/tb";
 const FrontEndIconData = [
   {
     icon: <FaIcons.FaReact />,
-    name: "React",
+    name: "React.js",
     level: "Proficient",
   },
   {
@@ -19,6 +19,11 @@ const FrontEndIconData = [
     level: "Proficient",
   },
   {
+    icon: <SiIcons.SiJavascript />,
+    name: "JavaScript",
+    level: "Proficient",
+  },
+  {
     icon: <FaIcons.FaHtml5 />,
     name: "HTML5",
     level: "Intermediate",
@@ -29,7 +34,7 @@ const FrontEndIconData = [
     level: "Intermediate",
   },
   {
-    icon: <FaIcons.FaBootstrap />,
+    icon: <SiIcons.SiBootstrap />,
     name: "Bootstrap",
     level: "Proficient",
   },
@@ -38,6 +43,17 @@ const FrontEndIconData = [
     name: "TailwindCSS",
     level: "Intermediate",
   },
+  {
+    icon: <SiIcons.SiDaisyui />,
+    name: "DaisyUI",
+    level: "Experienced",
+  },
+  {
+    icon: <FaIcons.FaMobile />,
+    name: "Responsive Design",
+    level: "Intermediate",
+  },
+
   {
     icon: <FaIcons.FaGitAlt />,
     name: "Git",

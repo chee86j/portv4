@@ -35,6 +35,12 @@ a:hover,
   text-decoration-color: rgb(181, 181, 181);
 }
 
+.iconStyle {
+  width: 2rem; 
+  height: 2rem; 
+}
+
+
 /* Desktop Navigation */
 nav,
 .nav-links {
@@ -811,6 +817,10 @@ label .moon-icon {
   color: rgb(187, 187, 187);
 }
 .dark-mode .experience-sub-title {
+  filter: invert(1);
+}
+
+.dark-mode .iconStyle {
   filter: invert(1);
 }
 
