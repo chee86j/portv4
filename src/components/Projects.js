@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <section id="projects">
-      <p className="section__text__p1">Browse My Recent</p>
+      <p className="section__text__p1">Explore My Recent Work</p>
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
@@ -36,10 +36,9 @@ function Projects() {
               Acme Web Store
             </h2>
             <p className="project-text">
-              White-Label E-commerce Store: PERN Stack App with seamless
-              shopping, secure payments via Stripe, personalized
-              recommendations, and developer-friendly scalability, defining the
-              future of online retail.{" "}
+              E-commerce platform built with the PERN stack, offering a
+              streamlined shopping experience, secure Stripe payments, and
+              scalable features for the future of online retail.
             </p>
             <div className="btn-container">
               <button
@@ -73,10 +72,9 @@ function Projects() {
               Reel Relations
             </h2>
             <p className="project-text">
-              PERN Stack App exploring to Discover the degrees of separation
-              between two actors and identifies common movies in their careers
-              employing a BFS algorithm for efficient pathfinding through a
-              graph of Actors and Movies.
+              PERN stack app that explores degrees of separation using a BFS
+              algorithm for efficient pathfinding through a graph of Actors and
+              Movies.
             </p>
             <div className="btn-container">
               <button
@@ -113,7 +111,7 @@ function Projects() {
             </h2>
             <p className="project-text">
               A modern Tetris clone, Tetris Beat TS harmonizes classic gameplay
-              with contemporary music and visuals. Experience customizable
+              with a rich audio-visual experience. Experience customizable
               themes, dynamic audio-visual synergy, and draggable controls in
               this immersive app.
             </p>
@@ -147,20 +145,20 @@ function Projects() {
               Manny's Seamless Gutters
             </h2>
             <p className="project-text">
-              Contracted Job Lead Generation for Seamless Gutter Contractor with
-              Feature Rich Admin Interface for Managing Leads, Quotes, User
+              Contracted Lead Generation job for a Seamless Gutter Contractor
+              with Feature Rich Admin Interface for Managing Leads, Quotes, User
               Interactions & P&L Statements streamlining Business Ops with
               Integrated DB Management & Real-Time Updates.
             </p>
             <div className="btn-container">
-              <button
+              {/* <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
                   window.open("https://github.com/chee86j/MannysGuttersPERN")
                 }
               >
                 Github
-              </button>
+              </button> */}
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
