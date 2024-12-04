@@ -23,7 +23,7 @@ function Profile() {
             className="download-cv-btn"
             onClick={() => {
               window.location.href =
-                "https://drive.google.com/file/d/14UUNjWLHVk4dkfW5OhpAzaw8Gep7_7YC/view?usp=drive_link";
+                "https://drive.google.com/file/d/14UUNjWLHVk4dkfW5OhpAzaw8Gep7_7YC/view?usp=sharing";
             }}
           >
             Download CV
