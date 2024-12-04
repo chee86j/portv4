@@ -22,8 +22,12 @@ function Profile() {
           <button
             className="download-cv-btn"
             onClick={() => {
-              window.location.href =
-                "https://drive.google.com/file/d/14UUNjWLHVk4dkfW5OhpAzaw8Gep7_7YC/view?usp=sharing";
+              const link = document.createElement("a");
+              link.href = "https://drive.google.com/uc?export=download&id=14UUNjWLHVk4dkfW5OhpAzaw8Gep7_7YC";
+              link.setAttribute("download", "Jeffrey_Chee_CV_Resume.pdf"); 
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
             }}
           >
             Download CV
