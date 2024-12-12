@@ -24,6 +24,26 @@ const FrontEndIconData = [
     level: "Proficient",
   },
   {
+    icon: <SiIcons.SiTypescript />,
+    name: "TypeScript",
+    level: "Intermediate",
+  },
+  {
+    icon: <SiIcons.SiPython />,
+    name: "Python",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiCsharp />,
+    name: "C#",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiPowershell />,
+    name: "PowerShell",
+    level: "Experienced",
+  },
+  {
     icon: <FaIcons.FaHtml5 />,
     name: "HTML5",
     level: "Intermediate",
