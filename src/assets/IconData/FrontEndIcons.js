@@ -69,6 +69,11 @@ const FrontEndIconData = [
     name: "VSCode",
     level: "Proficient",
   },
+  {
+    icon: <SiIcons.SiDotNet />,
+    name: ".Net",
+    level: "Experienced",
+  },
 ];
 
 export default FrontEndIconData;
