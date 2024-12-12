@@ -20,6 +20,11 @@ const BackEndIconData = [
     level: "Experienced",
   },
   {
+    icon: <SiIcons.SiMicrospftazure />,
+    name: "Azure",
+    level: "Experienced",
+  },
+  {
     icon: <SiIcons.SiPowershell />,
     name: "PowerShell",
     level: "Experienced",
