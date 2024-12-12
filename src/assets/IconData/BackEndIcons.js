@@ -15,6 +15,16 @@ const BackEndIconData = [
     level: "Experienced",
   },
   {
+    icon: <SiIcons.SiCsharp />,
+    name: "C#",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiPowershell />,
+    name: "PowerShell",
+    level: "Experienced",
+  },
+  {
     icon: <FaIcons.FaNodeJs />,
     name: "Node.js",
     level: "Proficient",
