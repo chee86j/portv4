@@ -5,7 +5,7 @@ import PytestIcon from "./pytest.svg";
 
 const BackEndIconData = [
   {
-    icon: <SiIcons.SiMicrospftazure />,
+    icon: <SiIcons.SiMicrosoftazure />,
     name: "Azure",
     level: "Experienced",
   },
