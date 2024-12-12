@@ -5,8 +5,23 @@ import PytestIcon from "./pytest.svg";
 
 const BackEndIconData = [
   {
-    icon: <SiIcons.SiMicrosoftazure />,
-    name: "Azure",
+    icon: <SiIcons.SiTypescript />,
+    name: "TypeScript",
+    level: "Intermediate",
+  },
+  {
+    icon: <SiIcons.SiPython />,
+    name: "Python",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiCsharp />,
+    name: "C#",
+    level: "Experienced",
+  },
+  {
+    icon: <SiIcons.SiPowershell />,
+    name: "PowerShell",
     level: "Experienced",
   },
   {
