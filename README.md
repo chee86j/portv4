@@ -42,6 +42,11 @@ Several key projects are showcased and more will be added in the future, demonst
 - **Technologies**: TypeScript, React.
 - **Links**: [GitHub](https://github.com/chee86j/Tetris-Beats-TS) | [Live Demo](https://ts-tetris.onrender.com)
 
+- **Description**: A contract project to develop a full-stack lead generation site for a gutter contractor, featuring a feature-rich admin interface for managing leads, job quotes, admin user interactions, and P&L statements. This platform streamlines business operations with integrated database management.
+- **Technologies**: PostgreSQL, Express.js, React, Node.js (PERN stack).
+- **Links**: 
+- **Links**: [Live Demo](https://mannysseamlessgutters.up.railway.app/)
+
 Each project incorporates responsive design and interactive elements, ensuring a user-friendly experience across various devices.
 
 ## Setup and Installation
