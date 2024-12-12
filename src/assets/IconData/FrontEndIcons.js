@@ -9,7 +9,7 @@ const FrontEndIconData = [
     level: "Proficient",
   },
   {
-    icon: <SiIcons.SiDotnet />,
+    icon: <SiIcons.SiDotNet />,
     name: "Next.js",
     level: "Experienced",
   },
