@@ -31,7 +31,6 @@ function About() {
               <h3>Experience</h3>
               <p>
                 FullStack Academy - Software Engineering Immersive Cert.
-                <br /> 07/2023
               </p>
             </div>
             <div className="details-container" ref={details2Ref} data-tilt>
@@ -42,7 +41,7 @@ function About() {
               />
               <h3>Education</h3>
               <p>
-                Bernard Baruch College - B.Sc. Public Affairs <br /> 2010
+                Bernard Baruch College - B.Sc. Public Affairs
               </p>
             </div>
           </div>
