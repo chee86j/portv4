@@ -24,6 +24,14 @@ Welcome to my personal corner on the web! I'm thrilled to present my portfolio, 
 
 Several key projects are showcased and more will be added in the future, demonstrating a range of skills and technologies. Below are some of the highlighted projects:
 
+### JS Foreclosure Scraper
+
+- **Description**: Automated REO Foreclosure Data Aggregation Tool with Enhanced Investment Analysis Dashboard for Real Estate Investors. Features Personalized Property Tracking, Financial Metrics Calculation & Interactive Visualization enabling Data-Driven Decision Making with Continuous Market Monitoring For Northern New Jersey.
+- **Technologies**:
+  - **Frontend**: React 19, TypeScript, TailwindCSS, Framer Motion, Vite, React Router
+  - **Backend**: Node.js (v18.x), Express, PostgreSQL, Sequelize ORM, JWT Authentication, Cheerio for web scraping, Axios for HTTP requests
+- **Links**: [GitHub](https://github.com/chee86j/JSForeclosureScraper) | [Live Demo](https://jsforeclosurescraper-production.up.railway.app/)
+
 ### Acme Web Store
 
 - **Description**: Developers will find Acme Web Store a powerful platform to build exceptional e-commerce solutions. Leveraging the cutting-edge PERN stack, the app offers a scalable foundation and seamless integration with essential services like Stripe for secure payments. The responsive frontend built with React and Tailwind CSS empowers developers to create stunning user interfaces that align with their branding. With extensive customization options, comprehensive documentation, and a robust debugging process, developers can confidently build and extend Acme Web Store to create unique and reliable e-commerce experiences.
@@ -43,6 +51,7 @@ Several key projects are showcased and more will be added in the future, demonst
 - **Links**: [GitHub](https://github.com/chee86j/Tetris-Beats-TS) | [Live Demo](https://ts-tetris.onrender.com)
 
 ### Manny's Seamless Gutters
+
 - **Description**: A contract project to develop a full-stack lead generation site for a gutter contractor, featuring a feature-rich admin interface for managing leads, job quotes, admin user interactions, and P&L statements. This platform streamlines business operations with integrated Database Management & Analytics.
 - **Technologies**: PostgreSQL, Express.js, React, Node.js, TailwindCSS, DaisyUI, Stripe API.
 - **Links**: [Live Demo](https://mannysseamlessgutters.up.railway.app/)
@@ -59,3 +68,4 @@ Each project incorporates responsive design and interactive elements, ensuring a
 1. **Run the Application**:
 
 - Run `npm start` to start the application.
+- Visit `http://localhost:3000` to view the local development server.
