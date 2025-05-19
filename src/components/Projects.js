@@ -4,6 +4,7 @@ import Project1 from "../assets/project-1.png";
 import Project2 from "../assets/project-2.png";
 import Project3 from "../assets/project-3.png";
 import Project4 from "../assets/project-4v2.png";
+import Project5 from "../assets/project-5.png";
 import arrowDownIcon from "../assets/arrow.png";
 
 function Projects() {
@@ -11,11 +12,13 @@ function Projects() {
   const project2Ref = useRef(null);
   const project3Ref = useRef(null);
   const project4Ref = useRef(null);
+  const project5Ref = useRef(null);
 
   useCardTilt(project1Ref);
   useCardTilt(project2Ref);
   useCardTilt(project3Ref);
   useCardTilt(project4Ref);
+  useCardTilt(project5Ref);
 
   return (
     <section id="projects">
@@ -151,18 +154,54 @@ function Projects() {
               Integrated DB Management & Real-Time Updates.
             </p>
             <div className="btn-container">
-              {/* <button
-                className="btn btn-color-2 project-btn"
-                onClick={() =>
-                  window.open("https://github.com/chee86j/MannysGuttersPERN")
-                }
-              >
-                Github
-              </button> */}
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
                   window.open("https://mannysseamlessgutters.up.railway.app/")
+                }
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+          {/* Project 5 Details */}
+          <div
+            className="details-container color-container"
+            ref={project5Ref}
+            data-tilt
+          >
+            <div className="article-container">
+              <img src={Project5} alt="Project 5" className="project-img" />
+            </div>
+            <h2 className="experience-sub-title project-title">
+              JS Foreclosure Scraper
+            </h2>
+            <p className="project-text">
+              Automated REO Foreclosure Data Aggregation Tool with Enhanced
+              Investment Analysis Dashboard for Real Estate Investors featuring
+              Personalized Property Tracking, Financial Metrics Calculation &
+              Interactive Visualization enabling Data-Driven Decision Making
+              with Continuous Market Monitoring For Northern New Jersey.
+            </p>
+            <div className="btn-container">
+              {
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/chee86j/JSForeclosureScraper"
+                    )
+                  }
+                >
+                  Github
+                </button>
+              }
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() =>
+                  window.open(
+                    "https://jsforeclosurescraper-production.up.railway.app/"
+                  )
                 }
               >
                 Demo
