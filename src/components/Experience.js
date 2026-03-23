@@ -1,6 +1,7 @@
 import React from "react";
 import FrontEndIconData from "../assets/IconData/FrontEndIcons";
 import BackEndIconData from "../assets/IconData/BackEndIcons";
+import AIRagIconData from "../assets/IconData/AIRagIcons";
 import arrowDownIcon from "../assets/arrow.png";
 
 function Experience() {
@@ -28,6 +29,19 @@ function Experience() {
             <h2 className="experience-sub-title">Backend Development</h2>
             <div className="article-container">
               {BackEndIconData.map((item, index) => (
+                <div key={index} className="icon">
+                  <i>{item.icon}</i>
+                  <span>{item.name}</span>
+                  <span>{item.level}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* AI/RAG Systems Details */}
+          <div className="details-container">
+            <h2 className="experience-sub-title">AI / RAG Systems</h2>
+            <div className="article-container">
+              {AIRagIconData.map((item, index) => (
                 <div key={index} className="icon">
                   <i>{item.icon}</i>
                   <span>{item.name}</span>

@@ -38,6 +38,8 @@ a:hover,
 .iconStyle {
   width: 2rem; 
   height: 2rem; 
+  display: block;
+  object-fit: contain;
 }
 
 
@@ -822,6 +824,10 @@ label .moon-icon {
 
 .dark-mode .iconStyle {
   filter: invert(1);
+}
+
+.dark-mode .iconStyle--fastapi {
+  filter: none;
 }
 
 .dark-mode .btn-color-1,
