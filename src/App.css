@@ -142,10 +142,10 @@ nav {
 /* Sections */
 section {
   padding-top: 4vh;
-  height: 96vh;
+  min-height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  height: auto;
 }
 
 .section-container {
@@ -388,6 +388,9 @@ section {
 }
 
 .about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -398,7 +401,6 @@ section {
   flex-direction: column;
 }
 
-.about-containers,
 .about-details-container {
   display: flex;
 }
